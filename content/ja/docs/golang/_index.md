@@ -1,9 +1,6 @@
 ---
-title: "Docs"
-linkTitle: "Docs"
-menu:
-  main:
-    weight: 20
+title: "Golang"
+linkTitle: "Golang"
 ---
 
 {{% pageinfo %}}
