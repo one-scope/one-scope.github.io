@@ -111,11 +111,11 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 enable = false
 
 [params.links]
-# [[params.links.developer]]
-#   name ="Twitter"
-#   url = "https://twitter.com/kurusugawa_"
-#   icon = "fab fa-twitter"
-#   desc = ""
+[[params.links.developer]]
+  name ="Twitter"
+  url = "https://twitter.com/onescooope"
+  icon = "fab fa-twitter"
+  desc = ""
 # [[params.links.developer]]
 #   name = "YouTube"
 #   # url = "https://www.youtube.com/"
