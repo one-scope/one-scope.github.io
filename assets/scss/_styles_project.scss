@@ -1,3 +1,7 @@
+// ブラウザの横幅が小さいとき、トップページのロゴ画像がはみ出さないようにする
+.cover-logo { max-width: 100%; }
+
+// ドキュメント右側のサイドバーのリンクを非表示にする
 .td-page-meta--view { display: none !important; }
 .td-page-meta--edit { display: none !important; }
 .td-page-meta--child { display: none !important; }
