@@ -2,6 +2,8 @@
 title: "Golang 実践入門"
 linkTitle: "Golang 実践入門"
 weight: 10
+tags:
+  - Golang
 ---
 
 {{% pageinfo %}}
