@@ -1,6 +1,8 @@
 ---
 title: "Members"
 linkTitle: "Members"
+description: >
+  OneScope のメンバーを紹介します。
 ---
 
 {{% blocks/cover title="Members" height="auto" %}}
