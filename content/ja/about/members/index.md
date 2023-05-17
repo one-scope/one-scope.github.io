@@ -26,7 +26,7 @@ OneScope には多数の学生エンジニアが所属しています。
 |Wさん   |静岡大学 情報学部情報科学科            |C、C++、Go、PHP、Rust                              |
 |Oさん   |信州大学 工学部・電子情報システム工学科|C++、Python、Go                                    |
 |Kさん   |愛知県立大学 情報科学部情報科学科      |C++、Haskell、Go                                   |
-|Mさん   |名城大学 電気電子工学                  |Ruby、C#、Python、Go                               |
+|Mさん   |名城大学 電気電子工学科                |Ruby、C#、Python、Go                               |
 |Mさん   |名古屋工業大学 情報工学科              |C、C++、Rust、Go、JavaScript                       |
 |Mさん   |名古屋大学 情報学研究科                |Python                                             |
 
