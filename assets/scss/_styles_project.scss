@@ -7,3 +7,11 @@
 .td-page-meta--child { display: none !important; }
 .td-page-meta--issue { display: none !important; }
 .td-page-meta--project-issue { display: none !important; }
+
+// blocks/section を type=container で使うため、Docsy 0.7.0-dev の blocks/section を取り込んだ
+// このとき .td-box.row のスタイルも変化したので、ここで上書きする
+// TODO: Docsy 0.7.0 が正式リリースされたら、ここを消せるか検討すること
+.td-box.row {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
