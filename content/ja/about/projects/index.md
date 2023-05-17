@@ -1,6 +1,8 @@
 ---
 title: "Projects"
 linkTitle: "Projects"
+description: >
+  OneScope で行ったプロジェクトを紹介します。
 ---
 
 {{% blocks/cover title="Projects" height="auto" %}}
