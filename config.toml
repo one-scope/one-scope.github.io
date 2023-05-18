@@ -138,11 +138,11 @@ defaultContentLanguageInSubdir = true
     #   # url = "https://www.youtube.com/"
     #   icon = "fab fa-youtube"
     #   desc = ""
-    # [[params.links.developer]]
-    #   name = "Discord"
-    #   url = "https://www.youtube.com/"
-    #   icon = "fab fa-discord"
-    #   desc = ""
+    [[params.links.developer]]
+      name = "Discord"
+      url = "https://discord.gg/Gt24ERbjRg"
+      icon = "fab fa-discord"
+      desc = ""
     [[params.links.developer]]
       name ="GitHub"
       url = "https://github.com/one-scope"
