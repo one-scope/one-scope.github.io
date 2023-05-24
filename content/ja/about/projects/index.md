@@ -20,7 +20,7 @@ OneScope ではソフトウェア企業の実際の仕事の一部を請け負�
 学校やプログラミングスクールでは体験する機会の少ない実務経験が可能です。  
 過去に行ったプロジェクトを一部紹介します。
 
-※ 現在の取り組みは [こちら](https://github.com/orgs/one-scope/discussions?discussions_q=sort%3Adate_created) から確認できます。
+※ 現在の取り組みは [こちら](https://github.com/orgs/one-scope/discussions?discussions_q=category%3Aprojects+sort%3Adate_created) から確認できます。
 
 |プロジェクト                                           |要素技術                                              |
 |-------------------------------------------------------|------------------------------------------------------|
