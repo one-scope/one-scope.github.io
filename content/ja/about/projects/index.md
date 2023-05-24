@@ -20,6 +20,8 @@ OneScope ではソフトウェア企業の実際の仕事の一部を請け負�
 学校やプログラミングスクールでは体験する機会の少ない実務経験が可能です。  
 過去に行ったプロジェクトを一部紹介します。
 
+※ 現在の取り組みは [こちら](https://github.com/orgs/one-scope/discussions?discussions_q=sort%3Adate_created) から確認できます。
+
 |プロジェクト                                           |要素技術                                              |
 |-------------------------------------------------------|------------------------------------------------------|
 |勤怠管理 Bot の開発                                    |Go、Slack                                             |
@@ -33,7 +35,7 @@ OneScope ではソフトウェア企業の実際の仕事の一部を請け負�
 |アノテーションサービスの多言語化対応                   |Vue.js、Scala.js、i18n                                |
 |Discord メンバー管理APIの開発                          |Go、Discord                                           |
 |ファイル共有サービスの機能追加                         |Go、JavaScript                                        |
-|動画配信サービスの開発                                 |Golang、TypeScript、React、FFmpeg                     |
+|動画配信サービスの開発                                 |Go、TypeScript、React、FFmpeg                    　   |
 |ファイル共有サービスの CLI の開発                      |Go                                                    |
 |nginx ログ解析サービスの開発                           |Go、Typescript、React                                 |
 |Lidar のデータを高速に読み込むライブラリの開発         |Python、C++                                           |
