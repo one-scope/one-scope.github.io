@@ -33,17 +33,25 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: $dark;
+    background-color: $white;
     border-radius: 10px;
     margin: 80px 0px 80px 0px;
     padding: 40px;
-    color: white;
+    color: $black;
     > img {
         width: 220px;
     }
     > div {
         width: calc(100% - 220px - 20px);
         min-width: 220px;
+        > h4 {
+            font-weight: bold;
+        }
+        > p {
+            > a {
+                color: #3176d9;
+            }
+        }
     }
 }
 
