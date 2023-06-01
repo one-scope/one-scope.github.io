@@ -28,31 +28,51 @@
     align-items: flex-end;
 }
 
-.lp-timelines {
+.lp-feature-card {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
+    background-color: $dark;
+    border-radius: 10px;
+    margin: 80px 0px 80px 0px;
+    padding: 40px;
+    color: white;
+    > img {
+        width: 220px;
+    }
+    > div {
+        width: calc(100% - 220px - 20px);
+        min-width: 220px;
+    }
 }
 
-.lp-twitter-timeline {
+.lp-timeline {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.lp-timeline--twitter {
     display: inline-block;
     padding: inherit !important;
-    display: inline-block; 
-    background-color: #202225; 
-    border-radius: 0px 0px 5px 5px; 
-    min-width: 320px; 
+    display: inline-block;
+    background-color: #202225;
+    border-radius: 5px;
+    min-width: 320px;
     min-height: 480px;
     > header {
-        display: flex; 
-        align-items: center; 
-        justify-content: space-between; 
-        background-color: rgb(29, 155, 240); 
-        color: white; 
-        border-radius: 5px 5px 0px 0px; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border-radius: 5px 5px 0px 0px;
         height: 74px;
         padding: 20px;
         > label {
-            display: flex; 
+            display: flex;
             align-items: center;
             margin: 0px;
             font-size: 16px;
