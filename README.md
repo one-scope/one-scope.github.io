@@ -19,3 +19,12 @@ hugo server
 (参考：hugoについて https://gohugo.io/documentation/)
 
 ## Blog記事の追加方法
+
+### 流れ
+`develop`ブランチから`xx(名前)/blog`ブランチ(例：`taro/blog`)を作成し、ブログを書く。  
+ブログが書けたらpushして`main`ブランチに向けてプルリクエストを作成する。  
+プルリクエストが承認されたらマージできる。
+
+### 記事を書く場所
+`content/ja/blog`の中に`2000-01-01`のように作成した日付を名前にしたディレクトリを作り、その中にブログ本体（マークダウン）を配置する。  
+マークダウンのテンプレは`content/ja/blog/index.md`にある。
