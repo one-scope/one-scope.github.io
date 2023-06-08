@@ -87,7 +87,7 @@ func process2(ctx context.Context){
 	for {
 		select {
 		case <-ctx.Done():
-			fmt.Printf("process canceled by %s\n", context.Cause(ctx).Error())
+			fmt.Printf("context canceled by %s\n", context.Cause(ctx).Error())
 			return 
 		default:
 			// ...何らかの処理
