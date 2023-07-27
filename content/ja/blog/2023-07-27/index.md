@@ -1,6 +1,6 @@
 ---
-title: "【Go1.21】slices / mapsパッケージが追加されました "
-linkTitle: "【Go1.21】slices / mapsパッケージが追加されました "
+title: "【Go1.21】slices / mapsパッケージが追加されます "
+linkTitle: "【Go1.21】slices / mapsパッケージが追加されます "
 date: 2023-07-27T00:00:00+09:00
 description: >
   Go1.21で追加される予定のslices / mapsパッケージについて紹介します。
