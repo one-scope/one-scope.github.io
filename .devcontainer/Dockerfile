@@ -1,4 +1,10 @@
-FROM ubuntu:20.04
+ARG UBUNTU_VERSION=22.04
+FROM ubuntu:${UBUNTU_VERSION}
+
+# apt mirror server
+ARG APT_MIRROR=""
+RUN set -x \
+    && [ "${APT_MIRROR:-}" != "" ] && sed -i -r "s@http://(\\w+.)?archive\.ubuntu\.com/ubuntu/@${APT_MIRROR}@" || :
 
 # update ca-certificates
 RUN set -x \
@@ -15,6 +21,15 @@ RUN set -x \
     && apt-get clean && rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/* \
     && ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime \
     && echo 'Asia/Tokyo' >/etc/timezone
+
+# language-pack
+RUN set -x \
+    && apt-get update \
+    && apt-get install -y --no-install-recommends \
+        language-pack-ja-base \
+        language-pack-ja \
+    && apt-get clean && rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/*
+ENV LANG=ja_JP.UTF-8
 
 # vscode user
 RUN set -x \
@@ -55,7 +70,7 @@ RUN set -x \
     && apt-get clean && rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/*
 
 # golang
-ARG GO_VERSION=1.20.4
+ARG GO_VERSION=1.20.6
 RUN set -x \
     && apt-get update \
     && apt-get install -y --no-install-recommends \
@@ -69,7 +84,7 @@ ENV GOROOT=/usr/local/go \
     PATH=/home/vscode/go/bin:/usr/local/go/bin:${PATH}
 
 # nodejs
-ARG NODE_VERSION=20.1.0
+ARG NODE_VERSION=18.16.1
 RUN set -x \
     && apt-get update \
     && apt-get install -y --no-install-recommends \
