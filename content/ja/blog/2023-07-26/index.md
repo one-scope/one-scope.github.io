@@ -68,7 +68,7 @@ output（以下、json形式の出力はフォーマット済み。実際には�
 }
 ```
 
-ログに新たにフィールドを追加したい時は`WithField`関数が使えます。引数には追加するキーと値を指定します。
+ログに新たにフィールドを追加したい時は `WithField` 関数が使えます。引数には追加するキーと値を指定します。
 ```go
     slog.SetFormatter(slog.NewJSONFormatter())
 
@@ -89,7 +89,7 @@ output
 }
 ```
 
-また、`WithFields`関数を使うことで一度に複数のフィールドを登録することもできます。
+また、`WithFields` 関数を使うことで一度に複数のフィールドを登録することもできます。
 ```go
     slog.SetFormatter(slog.NewJSONFormatter())
 
