@@ -1,18 +1,28 @@
 # one-scope.github.io
 
-one-scope コミュニティサイト
+OneScope コミュニティサイト
 
 ## 環境構築
-このgitリポジトリ([https://github.com/one-scope/one-scope.github.io](https://github.com/one-scope/one-scope.github.io))をクローンして、devcontainerに入る。
 
-devcontainerに入ることができたら、**初回のみ**以下のコマンドを実行する。
+### 必要環境
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- [Docker](https://docs.docker.com/)
+
+### 環境構築
+
+- このリポジトリ([https://github.com/one-scope/one-scope.github.io](https://github.com/one-scope/one-scope.github.io))をワークスペースとして Visual Studio Code を起動する
+- コマンドパレット(Ctrl + Shift + P)から `Dev Containers: Reopen in Container` を実行する
+
+**初回のみ** devcontainer 内で以下のコマンドを実行する。
 ```
-npm install
+$ npm install
 ```
 
-## 起動
+### サイトプレビュー用サーバーの起動
 ```
-hugo server
+$ hugo server
 ```
 
 コマンドを実行後、http://localhost:1313/ にアクセスするとサイトが表示され、手元の更新が自動で反映される。  
@@ -21,10 +31,9 @@ hugo server
 ## Blog記事の追加方法
 
 ### 流れ
-`main`ブランチから`xx(名前)/blog`ブランチ(例：`taro/blog`)を作成し、ブログを書く。  
-ブログが書けたらpushして`main`ブランチに向けてプルリクエストを作成する。  
+`main` ブランチからブログ記事用のブランチ(例：`taro/blog`)を作成し、ブログを書く。  
+ブログが書けたら push して`main`ブランチに向けてプルリクエストを作成する。  
 プルリクエストが承認されたらマージできる。
 
 ### 記事を書く場所
-`content/ja/blog`の中に`2000-01-01`のように作成した日付を名前にしたディレクトリを作り、その中にブログ本体（マークダウン）を配置する。  
-マークダウンのテンプレは`content/ja/blog/index.md`にある。
+`content/ja/blog` の中に `2000-01-01` のように日付を名前にしたディレクトリを作り、その中にブログ本体（マークダウン）を配置する。  
